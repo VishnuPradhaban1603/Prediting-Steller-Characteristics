@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="dialog">
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="append_column" type="xboolean" value="false"/>
+        <entry key="replaced_column" type="xstring" value="Balance Amount to be Paid"/>
+        <entry key="expression" type="xstring" value="(-1*$Person 1 paid Person 2 Owes$)-(-1*$Person 2 Paid , Person 1 Owes$)"/>
+        <entry key="convert_to_int" type="xboolean" value="false"/>
+    </config>
+</config>
